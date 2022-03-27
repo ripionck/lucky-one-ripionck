@@ -1,0 +1,98 @@
+[
+    {
+        "_id": "623fde07869b43941a751634",
+        "price": "$2,327.86",
+        "picture": "https://avatars.mds.yandex.net/i?id=bc001839faec2c7e328c400623c9f180-4401365-images-thumbs&n=13",
+        "name": "Lamborghini Aventador",
+        "company": "Lamborghini",
+        "email": "faithday@miracula.com"
+    },
+    {
+        "_id": "623fde07fbd82b7051b3af57",
+        "price": "$3,296.40",
+        "picture": "https://avatars.mds.yandex.net/i?id=523275dbc44f854a645837698a39f7a5-5506974-images-thumbs&n=13",
+        "name": "Lamborghini Huracan",
+        "company": "Lamborghini",
+        "email": "rochastephenson@geekology.com"
+    },
+    {
+        "_id": "623fde07ad97782be38af893",
+        "price": "$2,908.81",
+        "picture": "https://avatars.mds.yandex.net/i?id=dcb975579c1bb995cc4dff4f0c4e61dc-5735191-images-thumbs&n=13",
+        "name": "Lamborghini Uras",
+        "company": "Lamborghini",
+        "email": "tiawoodard@assistia.com"
+    },
+    {
+        "_id": "623fde074673ba6aec70ca1d",
+        "price": "$2,443.64",
+        "picture": "https://avatars.mds.yandex.net/i?id=10f78c15c36d4a5e92fd88bd0046d8e8-5484118-images-thumbs&n=13",
+        "name": "Lamborghini 350GT",
+        "company": "Lamborghini",
+        "email": "jamesbarrett@pulze.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=2a00000179e1de4959685cacd63ea404888d-3939391-images-thumbs&n=13",
+        "name": "Lamborghini 350GT",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=fea9fd5752f75b3cc1bf9c874adf9a1a-5669483-images-thumbs&n=13",
+        "name": "Lamborghini Mura",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=ed29c5dee5c96153dc4beffe7a5fb950-5911513-images-thumbs&n=13",
+        "name": "Lamborghini Espada",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=f6731b7df9338ca03bef6538f9f85b29-5248224-images-thumbs&n=13",
+        "name": "Lamborghini Islero",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=10051ad0da80ab5e446d889af10cb57b-4303023-images-thumbs&n=13",
+        "name": "Lamborghini Jarama",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=479734c88c55e7db0e9517fe7013ed80-4769507-images-thumbs&n=13",
+        "name": "Lamborghini Urraco",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=aaab11ecffe8f81ac56a6c8d1a35af9d-5906867-images-thumbs&n=13",
+        "name": "Lamborghini Jarpa",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    },
+    {
+        "_id": "623fde07098f39a2a111d9a0",
+        "price": "$1,554.61",
+        "picture": "https://avatars.mds.yandex.net/i?id=f53f8fb08f49ee35041323ae4f6461b0-5879346-images-thumbs&n=13",
+        "name": "Lamborghini LM002",
+        "company": "Lamborghini",
+        "email": "chrystallott@Lamborghini.com"
+    }
+]
