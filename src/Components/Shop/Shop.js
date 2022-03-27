@@ -14,22 +14,20 @@ const Shop = () => {
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
-    }
+    };
+    //selected random one
     const chooseOneRandom = () => {
         const selectedItems = cart;
-        if (selectedItems.length === 4) {
-            const randomNumber = Math.floor(Math.random() * 4);
+        if (selectedItems.length === cart.length) {
+            const randomNumber = Math.floor(Math.random() * selectedItems.length);
             const chooseRandomCar = selectedItems[randomNumber];
-            alert(chooseRandomCar.name + "was randomly selected from the above 4 cars.");
+            alert(chooseRandomCar.name + "was randomly selected from the selected cars.");
         }
-        else {
-            alert("Select 4 cars first.");
-            return;
-        }
-    }
+    };
+    //again select
     const chooseAgain = () => {
         setCart([]);
-    }
+    };
     return (
         <div className='shop-container'>
             <div className="cars-container">
@@ -40,7 +38,7 @@ const Shop = () => {
             <div className="select-container">
                 <h2>Selected Items</h2>
                 {
-                    cart.slice(0, 4).map((data) => <h2 key={data.id}>{data.name}</h2>)
+                    cart.map((data) => <h2 key={data.id}>{data.name}</h2>)
                 }
                 <button onClick={chooseOneRandom} className="cart-btn1">
                     <p>CHOOSE ONE</p>
