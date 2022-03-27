@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const Header = () => {
     return (
         <div>
-            <h1>Awesome Cars Collection</h1>
+            <h1>LAMBORGHINI WORLD</h1>
         </div>
     );
 };
