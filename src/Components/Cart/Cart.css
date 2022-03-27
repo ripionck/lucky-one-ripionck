@@ -4,21 +4,22 @@
 .cart-btn1{ 
     border: 1px solid gainsboro;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px 50px;
     font-weight: 700;
     color: mediumseagreen;
 }
 .cart-btn1:hover{
-    background:sandybrown;
+    background:mediumseagreen;
     color: azure;
 }
 .cart-btn2{
+    margin-top: 10px;
     border: 1px solid gainsboro;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px 45px;
     color: orchid;
 }
 .cart-btn2:hover{
-    background: lavender;
-    color: chocolate;
+    background:sandybrown ;
+    color: white;
 }

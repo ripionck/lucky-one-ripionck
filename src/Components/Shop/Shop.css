@@ -11,6 +11,14 @@
 .select-container{
     background-color: rgb(250,235,215);
 }
+.questions{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 10px;
+    gap: 20px;
+}
+
 @media screen and(max-width:1100px){
     .cars-container{
         grid-template-columns: 1fr 1fr;  
