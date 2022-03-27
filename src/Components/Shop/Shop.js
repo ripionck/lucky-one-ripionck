@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
@@ -13,9 +12,23 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        console.log(product)
         const newCart = [...cart, product];
         setCart(newCart);
+    }
+    const chooseOneRandom = () => {
+        const selectedItems = cart;
+        if (selectedItems.length === 4) {
+            const randomNumber = Math.floor(Math.random() * 4);
+            const chooseRandomCar = selectedItems[randomNumber];
+            alert(chooseRandomCar.name + "was randomly selected from the above 4 cars.");
+        }
+        else {
+            alert("Select 4 cars first.");
+            return;
+        }
+    }
+    const chooseAgain = () => {
+        setCart([]);
     }
     return (
         <div className='shop-container'>
@@ -29,10 +42,10 @@ const Shop = () => {
                 {
                     cart.slice(0, 4).map((data) => <h2 key={data.id}>{data.name}</h2>)
                 }
-                <button className="cart-btn1">
+                <button onClick={chooseOneRandom} className="cart-btn1">
                     <p>CHOOSE ONE</p>
                 </button>
-                <button className="cart-btn2">
+                <button onClick={chooseAgain} className="cart-btn2">
                     <p>CHOOSE AGAIN</p>
                 </button>
             </div>
